@@ -6,7 +6,7 @@ import time
 
 from Adafruit_IO import Client
 aio = Client('Here goes adafruit key')	# replace the string with your accounts key from adafruit.io
-count = aio.receive('LEDBlink')					# LEDBlink is the feed name created on adafruit > https://io.adafruit.com
+count = aio.receive('LEDBlink')         # LEDBlink is the feed name created on adafruit > https://io.adafruit.com
 
 red = 7																	# assign pin value
 yellow= 11
